@@ -1,0 +1,6 @@
+ngx_addon_name=ngx_http_ip_mask_module
+
+HTTP_MODULES="$HTTP_MODULES ngx_http_ip_mask_module"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_ip_mask_module.c"
+
+have=NGX_HTTP_IP_MASK_MODULE . auto/have
